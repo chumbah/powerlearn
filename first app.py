@@ -1,0 +1,5 @@
+num1 = input("Enter first number: ")
+num2 = input("Enter second number: ")
+operation = str (input("Enter operation (+, -, *, /): "))
+output = eval(f"{num1} {operation} {num2}")
+print(num1 + operation + num2 +" =" + str(output))
